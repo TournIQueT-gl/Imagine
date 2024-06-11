@@ -1,0 +1,132 @@
+body{
+    font-family: proxima-nova,Lato,'Lucida Sans Unicode','Lucida Grande',sans-serif;
+
+}
+.ado {
+    background-image: linear-gradient(to right, rgb(0 0 0 / 82%), rgb(30 6 119 / 18%)), url(img/222.png);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+.ado h1 {
+    font-size: 50px;
+    position: relative;
+    top: 55%;
+}
+.ado p {
+    position: relative;
+    top: 55%;
+}
+.ado button{
+    position: relative;
+    top: 55%;
+}
+
+.navbar {
+    justify-content: space-around;
+}
+.navbar li {
+    margin-left: 20px;
+}
+.logo-text {
+    text-decoration: none;
+    color: #009688;
+    font-size: 20px;
+}
+.navbar span {
+    text-decoration: none;
+    color: #040404;
+    border: 1px solid #009688;
+    padding: 4px;
+}
+.fakeimg {
+    background-color: #bdbdbd5e;
+  }
+
+  .fakeimg img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #040404;
+    margin: 4px;
+  }
+
+  .img-responsive {
+    height: 300px;
+    padding: 4px;
+    margin-bottom: 2px;
+    transition: all ease .5s;
+  }
+
+  .img-responsive:hover {
+    opacity: .9;
+    transform: scale(1.05);
+  }
+
+  .thumbnail-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hide {
+    display: none;
+    position: absolute;
+    bottom: 1%;
+    left: 4%;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+  }
+
+  .thumbnail-container:hover .hide {
+    display: block;
+  }
+hr {
+    width: 85% !important;
+    margin: auto;
+    margin-top: 4px;
+}
+.footer-end a{
+    text-decoration: none;
+    font-size: 10px ;
+    color: #009688;
+    font-weight: 500;
+}
+.footer-end{
+    font-size: 10px ;
+}
+
+.img-about {
+    height: 400px;
+    width: 100%;
+}
+.card i{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.card {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    min-height: 4em; /* Set a minimum height for the container */
+  }
+
+  #dynamicH1 {
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 2px solid #fff; /* Add a border to simulate a typing cursor */
+    min-height: 1.2em; /* Set a minimum height to reserve space for changing text */
+    height: 1.2em; /* Set a fixed height for the h1 element */
+    line-height: 1.2em; /* Maintain proper spacing with line-height */
+  }
+
+
+  body.no-scroll {
+    overflow: hidden;
+  }
